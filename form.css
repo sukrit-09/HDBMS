@@ -1,0 +1,120 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  background-color: #33d9b2;
+  color: #464343;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: #000; /* Use a valid color variable or color code here */
+}
+
+.header .logo i {
+  color: #c0392b;
+}
+
+/* Style the form container */
+form {
+  background-color: #fff;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form title */
+h1 {
+  color: #333;
+}
+
+/* Style the labels for form fields */
+label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style input fields and select */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #33d9b2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the textarea for other details */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add spacing between form elements */
+br {
+  display: block;
+  margin: 10px 0;
+}
+
+/* Adjust styling for select elements (dropdown) */
+select {
+  padding: 10px;
+}
+
+/* Style radio button labels */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style gender input section */
+.gender-input {
+  display: flex;
+  align-items: center;
+}

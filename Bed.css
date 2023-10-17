@@ -1,0 +1,124 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #33d9b2;
+    color:#464343;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.header .logo i{
+    color: #c0392b;
+}
+
+/* Registration section styles */
+.registration-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.registration-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.registration-section input[type="text"],
+.registration-section input[type="tel"],
+.registration-section textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Add this CSS to make the Email and Date of Birth sections thicker */
+.registration-section input[type="email"],
+.registration-section input[type="date"] {
+    padding: 10px; /* Increase padding to make it thicker */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Adjust font size and weight for better visibility */
+.registration-section label {
+    font-weight: bold;
+    margin-bottom: 10px; /* Increase margin for better separation */
+    font-size: 16px; /* Adjust font size */
+}
+
+/* You can adjust other properties like background color or border if needed */
+
+
+.registration-section button[type="submit"] {
+    background-color: #33d9b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-section button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Booked Bed section styles */
+.booked-bed-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booked-bed-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.booked-bed-section ul {
+    list-style-type: none;
+}
+
+.booked-bed-section ul li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
